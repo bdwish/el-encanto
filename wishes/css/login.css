@@ -1,0 +1,126 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #FA8BFF;
+  background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+  font-family: cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 400%;
+  color: #7D1935;
+}
+
+h3 {
+  font-size: 300%;
+  margin-bottom: 0;
+  color: #7D1935;
+}
+
+form {
+  position: relative;
+  top: 3em;
+}
+
+input, select {
+  border-width: 2px;
+  border-color: cyan;
+  padding: 6px;
+  font-size: 18px;
+  text-align: left;
+  border-radius: 15px;
+  border-style: hidden;
+  box-shadow: 3px 3px 10px 0px rgba(0, 25, 135, .62);
+  text-shadow: 0px 0px 0px rgba(42, 42, 42, .75);
+  font-weight: normal;
+  font-style: none;
+  font-family: sans-serif;
+  width: 12em;
+}
+
+input {
+  width: 11.5em;
+}
+
+select {
+  font-size: 17.5px;
+}
+
+.css-input:focus {
+  outline: none;
+}
+
+label {
+  position: relative;
+  right: 5em;
+  bottom: 0.5em;
+}
+
+.form {
+  position: relative;
+  top: 2em;
+}
+
+.login {
+  background-color: white;
+  background-size: cover;
+  width: 20em;
+  height: 20em;
+  border-radius: 30px;
+  box-shadow: 0px 3px 3px #000000;
+  position: relative;
+  top: 3em;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  outline: none;
+  background: #579BB1;
+  color: #000000;
+}
+
+.btn {
+  background: #4e6de6;
+  background-image: -webkit-linear-gradient(top, #4e6de6, #2b4eb8);
+  background-image: -moz-linear-gradient(top, #4e6de6, #2b4eb8);
+  background-image: -ms-linear-gradient(top, #4e6de6, #2b4eb8);
+  background-image: -o-linear-gradient(top, #4e6de6, #2b4eb8);
+  background-image: linear-gradient(to bottom, #4e6de6, #2b4eb8);
+  -webkit-border-radius: 26;
+  -moz-border-radius: 26;
+  border-radius: 26px;
+  text-shadow: 1px 1px 9px #666666;
+  -webkit-box-shadow: 0px 3px 3px #8bb6f7;
+  -moz-box-shadow: 0px 3px 3px #8bb6f7;
+  box-shadow: 0px 3px 3px #8bb6f7;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 22px;
+  padding: 10px 20px 10px 20px;
+  border: solid #1f628d 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0787d6;
+  background-image: -webkit-linear-gradient(top, #0787d6, #3486d9);
+  background-image: -moz-linear-gradient(top, #0787d6, #3486d9);
+  background-image: -ms-linear-gradient(top, #0787d6, #3486d9);
+  background-image: -o-linear-gradient(top, #0787d6, #3486d9);
+  background-image: linear-gradient(to bottom, #0787d6, #3486d9);
+  text-decoration: none;
+}
