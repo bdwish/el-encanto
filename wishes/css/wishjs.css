@@ -17,3 +17,13 @@ h1{
   color: #FFED00;
   margin-top: 0;
 }
+
+h3{
+  font-size: 200%;
+  color: white;
+  margin: 0;
+}
+
+img{
+  width: 50%;
+}
