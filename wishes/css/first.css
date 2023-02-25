@@ -8,7 +8,7 @@ h1 {
   margin: 0;
   color: #E90064;
   font-family: cursive;
-  margin-bottom: 16px;
+  margin-bottom: 50px;
 }
 
 h2{
@@ -20,7 +20,8 @@ img{
 }
 
 table{
-  width: 75%;
+  margin: 100px 0;
+  border-radius: 7px;
 }
 
 p{

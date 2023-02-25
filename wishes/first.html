@@ -21,12 +21,12 @@
       <table>
         <tr>
           <td>
-            <div class="img">
+            <div class="img" data-aos="fade-in">
               <img src="img/sample.png" alt="sample">
             </div>
           </td>
           <td>
-            <div class="text">
+            <div class="text" data-aos="fade-out">
               <p>
                 Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit,
@@ -43,7 +43,7 @@
       <table>
         <tr>
           <td>
-            <div class="text">
+            <div class="text" data-aos="flip-left">
               <p>
                 Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit,
@@ -55,7 +55,7 @@
             </div>
           </td>
           <td>
-            <div class="img">
+            <div class="img" data-aos="flip-right">
               <img src="img/sample.png" alt="sample">
             </div>
           </td>
@@ -65,12 +65,12 @@
       <table>
         <tr>
           <td>
-            <div class="img">
+            <div class="img" data-aos="slide-up">
               <img src="img/sample.png" alt="sample">
             </div>
           </td>
           <td>
-            <div class="text">
+            <div class="text" data-aos="slide-down">
               <p>
                 Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit,
@@ -87,7 +87,7 @@
       <table>
         <tr>
           <td>
-            <div class="text">
+            <div class="text" data-aos="slide-left">
               <p>
                 Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit,
@@ -99,7 +99,7 @@
             </div>
           </td>
           <td>
-            <div class="img">
+            <div class="img" data-aos="slide-right">
               <img src="img/sample.png" alt="sample">
             </div>
           </td>
@@ -109,12 +109,12 @@
       <table>
         <tr>
           <td>
-            <div class="img">
+            <div class="img" data-aos="slide-right">
               <img src="img/sample.png" alt="sample">
             </div>
           </td>
           <td>
-            <div class="text">
+            <div class="text" data-aos="slide-left">
               <p>
                 Lorem ipsum dolor sit amet,
                 consectetur adipiscing elit,
@@ -134,7 +134,9 @@
   </div>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+    AOS.init({
+      duration: 3000
+    });
   </script>
 </body>
 

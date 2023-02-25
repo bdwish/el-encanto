@@ -6,7 +6,7 @@ function valueUser(){
   name = document.getElementById("userName").value;
   password = document.getElementById("pass").value;
   if (name === "Joyline" && password === "joyline"){
-    window.location.href = "secret.html";
+    window.location.href = "friends/sample.html";
   }else {
     alert("Wrong UserName or Password!!\n Ask the User for password!!")
   }
