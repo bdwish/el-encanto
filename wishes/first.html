@@ -113,19 +113,13 @@
       <br><br><br>
     </center>
   </div>
-  <audio id="background-audio" loop>
-    <source src="audio/hbaud.mp3" type="audio/mpeg" >
-  </audio>
-
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
       duration: 3000
     });
-      const audio = document.getElementById("background-audio");
-      audio.volume = 0.5; // set the volume to 50%
-      audio.play();
-
+    var audio = new Audio("audio/hbaud.mp3");
+    audio.play();
   </script>
 </body>
 
