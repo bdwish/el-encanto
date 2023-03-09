@@ -21,6 +21,11 @@ img {
   left: 25%;
 }
 
+#audio-player {
+  display: none;
+}
+
+
 table {
   margin: 100px 0;
   border-radius: 7px;
