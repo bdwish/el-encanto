@@ -25,5 +25,11 @@ h3{
 }
 
 img{
+  width: 20%;
+  position: relative;
+  left: 25%;
+}
+
+td{
   width: 50%;
 }
