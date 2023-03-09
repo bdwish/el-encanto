@@ -123,9 +123,6 @@
   </div>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init({
-      duration: 3000
-    });
     var audio = document.createElement("AUDIO")
     document.body.appendChild(audio);
     audio.src = "audio/hbaud.mp3"
@@ -133,7 +130,10 @@
     document.body.addEventListener("mousemove", function() {
       audio.loop = true;
       audio.play()
-    })
+    });
+    AOS.init({
+      duration: 3000
+    });
   </script>
 </body>
 
