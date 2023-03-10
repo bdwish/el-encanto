@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/pl.css">
   <link rel="stylesheet" href="css/first.css">
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
   <script type="text/javascript">
     function changeOpacity(val) {
       let myDiv = document.getElementById("opc");
@@ -18,109 +19,120 @@
 </head>
 
 <body>
-  <div id="lock">
-    <h1>Can be used only in landscape</h1>
+  <div class="loader">
+  <div></div>
   </div>
-  <div id="container">
-    <center>
-      <h1>Happy Birthday Hepzhibha</h1>
-      <input type="range" min="1" max="100" value="1" oninput="changeOpacity(this.value/100)">
-      <div style="opacity: 0;" id="opc">
-        <table data-aos="flip-right">
-          <tr>
-            <td>
-              <div class="img" data-aos="flip-up">
-                <img src="img/img1.jpg" alt="sample">
-              </div>
-            </td>
-            <td>
-              <div class="text" data-aos="flip-down">
-                <p>
-                  It is scientifically proven that people who have more birthdays live longer. Congrats on your success.
-                </p>
-              </div>
-            </td>
-          </tr>
-        </table>
-        <br><br><br>
-        <table data-aos="flip-up">
-          <tr>
-            <td>
-              <div class="text" data-aos="flip-left">
-                <p>
-                  We can’t imagine life without our best friend, and we're so grateful for you!
-                </p>
-              </div>
-            </td>
-            <td>
-              <div class="img" data-aos="flip-right">
-                <img style="width: 50%;" src="img/img2.jpg" alt="sample">
-              </div>
-            </td>
-          </tr>
-        </table>
-        <br><br><br>
-        <table data-aos="slide-left">
-          <tr>
-            <td>
-              <div class="img" data-aos="slide-up">
-                <img src="img/sample.png" alt="sample">
-              </div>
-            </td>
-            <td>
-              <div class="text" data-aos="slide-down">
-                <p>
-                  As we age looks may fade, but personalities never change. Good thing it’s always been about your personality!
-                </p>
-              </div>
-            </td>
-          </tr>
-        </table>
-        <br><br><br>
-        <table data-aos="slide-up">
-          <tr>
-            <td>
-              <div class="text" data-aos="slide-left">
-                <p>
-                  When we think about some of our favorite memories, you’re always a part of them. Cheers to more fun times together. Best wishes on your birthday!
-                </p>
-              </div>
-            </td>
-            <td>
-              <div class="img" data-aos="slide-right">
-                <img style="left: 0;" src="img/sample.png" alt="sample">
-              </div>
-            </td>
-          </tr>
-        </table>
-        <br><br><br>
-        <table data-aos="slide-down">
-          <tr>
-            <td>
-              <div class="img" data-aos="slide-right">
-                <img class="lstimg" src="img/sample.png" alt="sample">
-              </div>
-            </td>
-            <td>
-              <div class="text" data-aos="slide-left">
-                <p class="last">Here they come, with birthday cheer,</p>
-                <p class="last">Bringing gifts just once a year,</p>
-                <p class="last">People you don’t even like;</p>
-                <p class="last">You really wish they’d take a hike.</p>
-                <p class="last">This should be a glad occasion;</p>
-                <p class="last">But it seems more like a SWAT invasion.</p>
-                <p class="last">Go away! Just take a break!</p>
-                <p class="last">Oh well, at least there’s birthday cake.</p>
-              </div>
-            </td>
-          </tr>
-        </table>
-        <h2>Enter Personal Wish Page</h2>
-        <a class="btn" href="login.html">Enter</a>
-        <br><br><br>
-      </div>
-    </center>
+  <div class="content">
+    <div id="lock">
+      <h1>Can be used only in landscape</h1>
+    </div>
+    <div id="container">
+      <center>
+        <input type="range" min="1" max="100" value="1" oninput="changeOpacity(this.value/100)">
+        <div style="opacity: 0;" id="opc">
+            <h1>Happy Birthday Hepzhibha</h1>
+          <table data-aos="flip-right">
+            <tr>
+              <td>
+                <div class="img" data-aos="flip-up">
+                  <img src="img/img1.jpg" alt="sample">
+                </div>
+              </td>
+              <td>
+                <div class="text" data-aos="flip-down">
+                  <p>
+                    It is scientifically proven that people who have more birthdays live longer. Congrats on your success.
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br><br><br>
+          <table data-aos="flip-up">
+            <tr>
+              <td>
+                <div class="text" data-aos="flip-left">
+                  <p>
+                    We can’t imagine life without our best friend, and we're so grateful for you!
+                  </p>
+                </div>
+              </td>
+              <td>
+                <div class="img" data-aos="flip-right">
+                  <img style="width: 50%;" src="img/img2.jpg" alt="sample">
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br><br><br>
+          <table data-aos="slide-left">
+            <tr>
+              <td>
+                <div class="img" data-aos="slide-up">
+                  <img src="img/sample.png" alt="sample">
+                </div>
+              </td>
+              <td>
+                <div class="text" data-aos="slide-down">
+                  <p>
+                    As we age looks may fade, but personalities never change. Good thing it’s always been about your personality!
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br><br><br>
+          <table data-aos="slide-up">
+            <tr>
+              <td>
+                <div class="text" data-aos="slide-left">
+                  <p>
+                    When we think about some of our favorite memories, you’re always a part of them. Cheers to more fun times together. Best wishes on your birthday!
+                  </p>
+                </div>
+              </td>
+              <td>
+                <div class="img" data-aos="slide-right">
+                  <img style="left: 0;" src="img/sample.png" alt="sample">
+                </div>
+              </td>
+            </tr>
+          </table>
+          <br><br><br>
+          <table data-aos="slide-down">
+            <tr>
+              <td>
+                <div class="img" data-aos="slide-right">
+                  <img class="lstimg" src="img/sample.png" alt="sample">
+                </div>
+              </td>
+              <td>
+                <div class="text" data-aos="slide-left">
+                  <p class="last">Here they come, with birthday cheer,</p>
+                  <p class="last">Bringing gifts just once a year,</p>
+                  <p class="last">People you don’t even like;</p>
+                  <p class="last">You really wish they’d take a hike.</p>
+                  <p class="last">This should be a glad occasion;</p>
+                  <p class="last">But it seems more like a SWAT invasion.</p>
+                  <p class="last">Go away! Just take a break!</p>
+                  <p class="last">Oh well, at least there’s birthday cake.</p>
+                </div>
+              </td>
+            </tr>
+          </table>
+          <h2>Enter Personal Wish Page</h2>
+          <a class="btn" href="login.html">Enter</a>
+          <br><br><br>
+        </div>
+      </center>
+    </div>
   </div>
+  <script type="text/javascript">
+    $(window).on('load', function(){
+      $(".loader").fadeOut(1000);
+      $(".content").fadeIn(1000);
+    });
+  </script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     var audio = document.createElement("AUDIO")
