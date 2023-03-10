@@ -85,9 +85,9 @@ a {
 }
 
 .loader>div {
-  height: 100px;
-  width: 100px;
-  border: 15px solid #FB2576;
+  height: 3rem;
+  width: 3rem;
+  border: 10px solid #FB2576;
   border-top-color: #FFDDEE;
   position: absolute;
   margin: auto;
