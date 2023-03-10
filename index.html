@@ -9,68 +9,79 @@
     <!-- Link CSS Style.css file-->
 
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
 
   </head>
 
   <body>
-    <div class='moon'>
-      <div class='crater1'></div>
-      <div class='crater2'></div>
-      <div class='crater3'></div>
+    <div class="loader">
+      <div></div>
     </div>
+    <div class="content">
+      <div class='moon'>
+        <div class='crater1'></div>
+        <div class='crater2'></div>
+        <div class='crater3'></div>
+      </div>
 
-    <canvas id="canvas"></canvas>
+      <canvas id="canvas"></canvas>
 
-    <div id="sea"></div>
-    <div id="beach"></div>
+      <div id="sea"></div>
+      <div id="beach"></div>
 
-    <img src="img/jumping.png" alt="Jumping-people" id="people" />
+      <img src="img/jumping.png" alt="Jumping-people" id="people" />
 
-    <div id="merrywrap" class="merrywrap">
-      <div class="giftbox">
-        <div class="cover">
-          <div></div>
+      <div id="merrywrap" class="merrywrap">
+        <div class="giftbox">
+          <div class="cover">
+            <div></div>
+          </div>
+
+          <div class="box"></div>
         </div>
 
-        <div class="box"></div>
+        <div class="icons">
+          <a style="text-decoration: none;" href="wishes/first.html">
+            <div class="row">
+              <span>H</span>
+              <span>a</span>
+              <span>p</span>
+              <span>p</span>
+              <span>y</span>
+
+            </div>
+            <div class="row">
+              <span>B</span>
+              <span>i</span>
+              <span>r</span>
+              <span>t</span>
+              <span>h</span>
+              <span>d</span>
+              <span>a</span>
+              <span>y</span>
+            </div>
+
+            <div class="row">
+              <span>J</span>
+              <span>o</span>
+              <span>y</span>
+              <span>l</span>
+              <span>i</span>
+              <span>n</span>
+              <span>e</span>
+            </div>
+          </a>
+        </div>
       </div>
 
-      <div class="icons">
-        <a style="text-decoration: none;" href="wishes/first.html">
-          <div class="row">
-            <span>H</span>
-            <span>a</span>
-            <span>p</span>
-            <span>p</span>
-            <span>y</span>
-
-          </div>
-          <div class="row">
-            <span>B</span>
-            <span>i</span>
-            <span>r</span>
-            <span>t</span>
-            <span>h</span>
-            <span>d</span>
-            <span>a</span>
-            <span>y</span>
-          </div>
-
-          <div class="row">
-            <span>J</span>
-            <span>o</span>
-            <span>y</span>
-            <span>l</span>
-            <span>i</span>
-            <span>n</span>
-            <span>e</span>
-          </div>
-        </a>
-      </div>
+      <div id="video"></div>
     </div>
-
-    <div id="video"></div>
-
+    <script type="text/javascript">
+      $(window).on('load', function(){
+        $(".loader").fadeOut(1000);
+        $(".content").fadeIn(1000);
+      });
+    </script>
     <script src="js/index.js"></script>
 
   </body>
